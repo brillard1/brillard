@@ -15,17 +15,17 @@ g++ ceyshell.cpp -o ceyshell && ./ceyshell
 ---
 
 ## Functionality of the Ceyshell
-* Supports following built-in commands
-    * cd \<dir>  : to change the present working directory<br>
+Supports following built-in commands:
+* cd \<dir>  : to change the present working directory<br>
 <img src = "https://raw.githubusercontent.com/brillard1/brillard/main/shell/png/cd.png">
     
-    * history [n] : returns previous [n] commands executed<br>
+* history [n] : returns previous [n] commands executed<br>
  <img src = https://raw.githubusercontent.com/brillard1/brillard/main/shell/png/history.png>
     
-    * help<br>
+* help<br>
  <img src = "https://raw.githubusercontent.com/brillard1/brillard/main/shell/png/help.png">
     
-    * exit<br>
+* exit<br>
 <img src = "https://raw.githubusercontent.com/brillard1/brillard/main/shell/png/exit.png">
 
 * Supports command concatenation using `&&`<br>
